@@ -1,0 +1,37 @@
+{
+  "name": "@rduk/map-google-provider",
+  "version": "0.0.1",
+  "description": "Google Maps implementation of RDUK Map Provider",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-map-google-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-map-google-provider/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-map-google-provider#readme",
+  "keywords": [
+    "rduk",
+    "map",
+    "google",
+    "provider"
+  ],
+  "author": "RDUK <tech@rduk.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/maps": "0.4.5",
+    "@rduk/configuration": "2.1.1",
+    "@rduk/map": "0.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "5.0.0",
+    "standard": "10.0.3"
+  }
+}
