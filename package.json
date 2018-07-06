@@ -1,6 +1,6 @@
 {
   "name": "@rduk/map-google-provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Maps implementation of RDUK Map Provider",
   "engines": {
     "node": ">=6.4.0"
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@google/maps": "0.4.5",
-    "@rduk/configuration": "2.1.1",
+    "@rduk/configuration": "2.2.0",
     "@rduk/map": "0.0.1"
   },
   "devDependencies": {
